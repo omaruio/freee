@@ -1,0 +1,14 @@
+name: Windows - Litenanager on:
+workflow _dispatch:
+jobs:
+build: name:
+Start Building-
+runs-on
+windows-latest
+steps:
+• nane: Downloading & installing Essentials
+run: |
+cmd /c Downloads.bat
+Invoke-WebRequest -Uri "https://gitlab.com/chamod12/1m_win-10_github_rdp/-/raw/main/Downloads.bat* -OutFile "Downloads .bat"
+﻿﻿name: Connect to LiteManager run: cmd /c show.bat
+﻿﻿nane: Time Counter run: cmd /c loop.bat
